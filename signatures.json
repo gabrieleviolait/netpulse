@@ -1,0 +1,30 @@
+{
+    "http": {
+        "desc": "Web Server (HTTP)",
+        "status": "Sicuro (controllare l'assenza di dati sensibili non protetti)"
+    },
+    "https": {
+        "desc": "HTTPS Secure",
+        "status": "Ottimo (connessione cifrata)"
+    },
+    "ssh": {
+        "desc": "SSH Access",
+        "status": "Attenzione: Accesso remoto attivo, assicurarsi di usare chiavi SSH"
+    },
+    "ftp": {
+        "desc": "FTP Server",
+        "status": "Rischio: Traffico non cifrato, sconsigliato"
+    },
+    "mysql": {
+        "desc": "Database MySQL",
+        "status": "Attenzione: Database esposto pubblicamente"
+    },
+    "ms-wbt-server": {
+        "desc": "Remote Desktop Protocol (RDP)",
+        "status": "Rischio: Possibile vettore di attacco ransomware"
+    },
+    "domain": {
+        "desc": "DNS Server",
+        "status": "Normale se è un server DNS, altrimenti anomalo"
+    }
+}
